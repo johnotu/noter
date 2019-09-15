@@ -1,0 +1,47 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif
+}
+
+.container {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  font-size: 32px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  /* width: 200px; */
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
